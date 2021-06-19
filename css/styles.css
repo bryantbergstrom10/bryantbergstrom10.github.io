@@ -109,13 +109,10 @@ p {
     margin: 0px 0px 20px 0px;
 }
 
-h2::before {
+h2 span {
+    margin-top: -100px;
+    padding-bottom: 70px;
     display: block;
-    content: " ";
-    margin-top: -285px;
-    height: 285px;
-    visibility: hidden;
-    pointer-events: none;
 }
 
 .storefronttop {

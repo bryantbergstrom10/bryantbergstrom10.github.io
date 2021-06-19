@@ -187,3 +187,51 @@ h2 span { /* Creates top cushion for Hash Links */
 }
 
 /* End Button CSS */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 85px;
+    background-color: #ccc;
+}
+
+.footerleft {
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+}
+
+.footerright {
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+}
+
+.footermiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#left {
+    float: left;
+    width: 25%;
+}
+
+#right {
+    float: right;
+    width: 25%;
+}
+
+#middle {
+    width: 50%;
+}
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    padding-top: 20px;
+}

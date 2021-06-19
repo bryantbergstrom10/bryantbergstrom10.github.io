@@ -4,6 +4,8 @@ body {
     background-color: #eee;
 }
 
+/* Header & Nav */
+
 header {
     display: flex;
     justify-content: center;
@@ -48,12 +50,9 @@ li a:hover {
     color: #CC1B1B;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
+/* End Header & Nav */
+
+/* Main & Store Hero Images */
 
 .hero {
     background: url(Hero.png);
@@ -71,7 +70,9 @@ li a:hover {
     box-shadow: 3px 3px 4px #4c4c4c;
 }
 
-.blurb {
+/* End Main & Store Hero Images */
+
+.blurb { /* Text Boxes */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,6 +82,8 @@ li a:hover {
     box-shadow: 3px 3px 4px #4c4c4c;
     padding: 0px 50px;
 }
+
+/* Text CSS */
 
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -109,11 +112,15 @@ p {
     margin: 0px 0px 20px 0px;
 }
 
-h2 span {
+/* End Text CSS */
+
+h2 span { /* Creates top cushion for Hash Links */
     margin-top: -70px;
     padding-bottom: 45px;
     display: block;
 }
+
+/* Storefront CSS */
 
 .storefronttop {
     display: flex;
@@ -123,54 +130,43 @@ h2 span {
     margin-top: 25px;
 }
 
-.storefront {
+.storefrontrow {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.column1 {
+.column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 33%;
+    height: 600px;
+    background-color: #ccc;
+}
+
+#c1 {
     float: left;
-    width: 33%;
-    height: 600px;
-    background-color: #ccc;
     border-right: 5px solid #eee;
     border-bottom: 5px solid #eee;
 }
 
-.column2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 33%;
-    height: 600px;
-    background-color: #ccc;
+#c2 {
     border-right: 5px solid #eee;
     border-bottom: 5px solid #eee;
 }
 
-.column3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+#c3 {
     float: right;
-    width: 33%;
-    height: 600px;
-    background-color: #ccc;
     border-bottom: 5px solid #eee;
 }
 
-/*Button CSS*/
+/* End Storefront CSS */
+
+/* Button CSS */
 
 .addtocart {
     cursor: pointer;
@@ -190,4 +186,4 @@ h2 span {
     color: #0d3c67;
 }
 
-/*End Button CSS*/
+/* End Button CSS */

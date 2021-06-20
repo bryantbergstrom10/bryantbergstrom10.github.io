@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f1cca5b07a.js" crossorigin="anonymous"></script>
     <title>Prestige Photo</title>
 </head>
@@ -163,18 +163,17 @@
     <div class="contactform">
         <form action="/action_page.php">
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input type="text" id="info" name="firstname" placeholder="First Name">
     
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <input type="text" id="info" name="lastname" placeholder="Last Name">
     
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select>
-    
+            <label for="country">Email</label>
+            <input type="text" id="info" name="email" placeholder="Email">
+            
+            <label for="comment">What can we help you with?</label>
+            <textarea type="text" id="info" name="comment" placeholder="Please enter your comment here"></textarea>
+
             <input type="submit" value="Submit">
         </form>
     </div>

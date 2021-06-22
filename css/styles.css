@@ -52,7 +52,7 @@ li a:hover {
 
 /* End Header & Nav */
 
-/* Main & Store Hero Images */
+/* Main, Store, & Contact Hero Images */
 
 .hero {
     background: url(Hero.png);
@@ -70,7 +70,15 @@ li a:hover {
     box-shadow: 3px 3px 4px #4c4c4c;
 }
 
-/* End Main & Store Hero Images */
+.contact {
+    background: url(Contact.png);
+    height: 735px;
+    background-size: auto;
+    border-bottom: 2px solid #4c4c4c;
+    box-shadow: 3px 3px 4px #4c4c4c;
+}
+
+/* End Main, Store, & Contact Hero Images */
 
 .blurb { /* Text Boxes */
     display: flex;
@@ -80,6 +88,15 @@ li a:hover {
     text-align: center;
     border-bottom: 2px solid #4c4c4c;
     box-shadow: 3px 3px 4px #4c4c4c;
+    padding: 0px 50px;
+}
+
+.blurb-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 0px 50px;
 }
 
@@ -110,6 +127,38 @@ p {
     font-family: 'Raleway', sans-serif;
     font-size: 14pt;
     margin: 0px 0px 20px 0px;
+}
+
+label {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+#h2-contact {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    color: #FFFFFF;
+    margin: 15px 0px;
+}
+
+.fe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+    text-decoration: none;
+    color: #CC1B1B;
+}
+
+.fe:hover {
+    color: #0d3c67;
+}
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 /* End Text CSS */
@@ -234,7 +283,6 @@ input[type=submit]:hover {
 
 .contactform {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 50px;
 }
 
@@ -260,6 +308,7 @@ footer {
     display: flex;
     justify-content: left;
     padding-left: 60px;
+    padding-top: 7px;
 }
 
 .footerright {
@@ -270,6 +319,7 @@ footer {
 
 .footermiddle { 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -288,12 +338,6 @@ footer {
 
 #middle {
     width: 50%;
-}
-
-#footer {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12pt;
-    padding-top: 20px;
 }
 
 .fa {

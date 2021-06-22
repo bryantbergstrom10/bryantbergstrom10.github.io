@@ -78,6 +78,14 @@ li a:hover {
     box-shadow: 3px 3px 4px #4c4c4c;
 }
 
+.end-contact {
+    background: url(end-contact.png);
+    height: 669px;
+    background-size: auto;
+    border-bottom: 2px solid #4c4c4c;
+    box-shadow: 3px 3px 4px #4c4c4c;
+}
+
 /* End Main, Store, & Contact Hero Images */
 
 .blurb { /* Text Boxes */

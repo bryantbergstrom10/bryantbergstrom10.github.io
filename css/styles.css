@@ -259,16 +259,16 @@ footer {
 .footerleft {
     display: flex;
     justify-content: left;
-    padding-left: 30px;
+    padding-left: 60px;
 }
 
 .footerright {
     display: flex;
     justify-content: right;
-    padding-right: 30px;
+    padding-right: 0px;
 }
 
-.footermiddle {
+.footermiddle { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,6 +281,7 @@ footer {
 }
 
 #right {
+    display: block;
     float: right;
     width: 25%;
 }
